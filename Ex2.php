@@ -48,22 +48,23 @@ class Empregado{
 }
 
 //empregado 1
-$emp1 = new Empregado();
-$emp1->validaSalarioMensal();
-$emp1->setSalarioAnual();
-echo "O salario anual de {$emp1-> getPrimeiroNome()} {$emp1->getSobrenome()} é R$ {$emp1->getSalarioAnual()}\n"; 
-$emp1 ->aumentaSalarioMensal();
-$emp1->setSalarioAnual();
-echo "O salario anual de {$emp1-> getPrimeiroNome()} recebeu acrescimo de 10% e agora é de R$ {$emp1->getSSalarioAnual()} \n ";
+$empregado1 = new Empregado();
+$empregado1->validaSalarioMensal();
+$empregado1->setSalarioAnual();
+echo "O salario anual de {$empregado1-> getPrimeiroNome()} {$empregado1->getSobrenome()} é R$ {$empregado1->getSalarioAnual()}\n"; 
+$empregado1 ->aumentaSalarioMensal();
+$empregadp1->setSalarioAnual();
+echo "O salario anual de {$empregado1-> getPrimeiroNome()} recebeu acréscimo de 10% e agora é de R$ {$empregado1->getSSalarioAnual()} \n ";
+
 //empregado 2
-$emp2 = new Empregado();
-$emp2 ->setPrimeiroNome("Keanu");
-$emp2 ->setSobrenome("Reeves");
-$emp2->setSalarioMensal(200000);
-$emp2->validaSalarioMensal();
-$emp2->setSalarioAnual();
-echo "O salario anual de {$emp2-> getPrimeiroNome()}  {$emp2->getSobrenome()} é R$ {$emp2->getSalarioAnual()} \n"; 
-$emp2 -> aumentaSalarioMensal();
-$emp2->setSalarioAnual();
-echo "O salario anual de {$emp2-> getPrimeiroNome()} recebeu acrescimo de 10% e agora é de R$ {$emp2->getSalarioAnual()} \n ";
+$empregado2 = new Empregado();
+$empregado2 ->setPrimeiroNome("Keanu");
+$empregado2 ->setSobrenome("Reeves");
+$empregado2->setSalarioMensal(200000);
+$empregado2->validaSalarioMensal();
+$empregado2->setSalarioAnual();
+echo "O salario anual de {$empregado2-> getPrimeiroNome()}  {$empregado2->getSobrenome()} é R$ {$empregado2->getSalarioAnual()} \n"; 
+$empregado2 -> aumentaSalarioMensal();
+$empregado2->setSalarioAnual();
+echo "O salario anual de {$empregado2-> getPrimeiroNome()} recebeu acréscimo de 10% e agora é de R$ {$empregado2->getSalarioAnual()} \n ";
 ?>
