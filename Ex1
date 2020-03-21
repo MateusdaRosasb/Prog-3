@@ -1,0 +1,13 @@
+  
+# Exercício 1
+<!--Significado de automóvel-->
+É um  veículo motorizado com rodas usado para trasporte. Além de um motor e quatro rodas e pneus, deve ter um condutor, freio e acelerador.
+
+//Objetos
+
+ Condutor: Aquele que conduz o automóvel, utilizando e controlando os demais equipamentos do veículo.
+ Acelerador: O que faz o veículo começar a se mover e que controla a velocidade.
+ Freio: Serve para parar o veículo.
+ Motor: Dispositivo que converte diferentes formas de energia em energia mecânica para que o automóvel possa se locomover.
+ Rodas: Controladas pelo freio e acelerador, são essenciais para a locomoção do veículo.
+ Pneus: O que envolve a roda pra que o veículo possa se locomover mais facilmente.
